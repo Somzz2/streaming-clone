@@ -64,7 +64,7 @@ export default () => {
       </section>
       <footer>
         Feito com <span role="img" aria-label="coração">❤️</span> por Matheus<br/>
-        API utiliza proveniente do Themoviedb.org.
+        API utilizada proveniente do Themoviedb.org.
       </footer>
 
       {movieList.length <=0 &&
