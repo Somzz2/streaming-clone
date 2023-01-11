@@ -9,9 +9,9 @@ export default ({black}: Props) => {
     return (
         <header className={black ? 'black' : ''}>
             <div className='header--logo'>
-                <a href='/'>
-                    <img src='https://logodownload.org/wp-content/uploads/2014/10/netflix-logo-5.png' alt='netflix' />
-                </a>
+                <div className='header--name'>
+                    FILMES
+                </div>
             </div>
             <div className='header--user'>
                 <a href='/'>
